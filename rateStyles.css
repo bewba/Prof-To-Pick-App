@@ -1,0 +1,84 @@
+.SearchProf label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 2pc;
+}
+
+.SearchProf input[type="text"] {
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+.SearchProf label,
+.SearchProf input[type="text"],
+.SearchProf input[type="submit"] {
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+#textDiv{
+    text-align: center;
+}
+
+.SearchProf {
+    border: 2px solid black;
+    background-color: whitesmoke;
+    font-size: 30px;
+    padding: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+.input-group label {
+    flex: 1;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    height: 20%;
+}
+
+#buttonTextBox {
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    border-radius: 3px;
+    background-color: whitesmoke;
+    color : black;
+    display: block;
+    z-index: 2;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    width: 350px;
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+#buttonTextBox:hover{
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    transform: scale(0.95);
+}
+
+.submitBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profAttributes {
+    
+}
+
