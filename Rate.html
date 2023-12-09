@@ -7,7 +7,7 @@
     <link rel ="stylesheet" href = "rateStyles.css">
 </head>
 
-<body>
+<body id = "mainPage">
     <div id="textDiv">
         <form class="SearchProf">
             <div class="input-group">
@@ -24,20 +24,23 @@
             </div>
             <div class="input-group">
                 <label for="profReview">Review:</label>
-                <input type="text" id="profReview" name="profReview" class="profAttributes">
+                <textarea id="profReview" name="profReview" class="profAttributes reviewInput" rows="4" cols="50"></textarea>
             </div>
-            <div class= "submitBox">
-            <input type="submit" value="Submit" id="buttonTextBox" class = "button">
+            <div class="submitBox">
+                <input type="submit" value="Submit" id="buttonTextBox" class="button">
             </div>
         </form>
     </div>
     
     
+    
+    
     <div class = "homePage">
-        <a href="index.html" class = "findButton">
+        <a href="index.html" class = "findButton" id = "fancyButton">
         <span>Home</span>
         </a>
     </div>
 </body>
-
+<script src="test.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </html>
