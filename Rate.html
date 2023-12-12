@@ -18,11 +18,19 @@
                 <label for="profLName">Professor Last Name:</label>
                 <input type="text" id="profLName" name="profLName" class="profAttributes">
             </div>
+
             <div class="input-group">
                 <label for="profRating">Professor Rating:</label>
-                <input type="number" id="profRating" name="profRating" class="profAttributes">
-                <label for = "profRating">  /5</label>
+                <div class="star-rating" id="starRating" data-rating="0">
+                    <span class="star" data-value="1">&#9733;</span>
+                    <span class="star" data-value="2">&#9733;</span>
+                    <span class="star" data-value="3">&#9733;</span>
+                    <span class="star" data-value="4">&#9733;</span>
+                    <span class="star" data-value="5">&#9733;</span>
+                </div>
+                <input type="hidden" id="profRating" name="profRating" class="profAttributes">
             </div>
+
             <div class="input-group">
                 <label for="profReview">Review:</label>
                 <textarea id="profReview" name="profReview" class="profAttributes reviewInput" rows="4" cols="50"></textarea>
