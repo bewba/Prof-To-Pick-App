@@ -1,1 +1,2 @@
 This application is a comedic way to choose professors in DLSU, hopefully I finish this before enlistments
+I will not diligently manage the database, hence do not blame me if someone says somemthing bad about a professor you like. 

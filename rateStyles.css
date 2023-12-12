@@ -1,7 +1,12 @@
 .SearchProf label {
-    display: block;
+    display: inline-flex;
     margin-bottom: 5px;
     font-size: 2pc;
+}
+
+.SearchProf input[type="number"] {
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 .SearchProf input[type="text"] {
@@ -10,6 +15,7 @@
 }
 
 .SearchProf label,
+.SearchProf input[type="number"],
 .SearchProf input[type="text"],
 .SearchProf input[type="submit"] {
     font-family: 'Roboto Slab', sans-serif;
@@ -42,8 +48,8 @@
 
 .input-group label {
     flex: 1;
-    text-align: right;
-    margin-right: 20px;
+    text-align: left;
+    margin-right: 10px;
 }
 
 .input-group input,
@@ -124,13 +130,12 @@
 .findButton:hover::before {
     animation : animate_border .75s linear infinite;
     
+    
 }
 
 .findButton span:hover{
     background-color: #333;
     color: #fff;
-    transform: scale(0.95);
-    
 }
 
 .findButton span{
@@ -157,4 +162,17 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+
+#fancyButton:hover{
+    transform: scale(0.95);
+}
+
+#fancyButton{
+    transition: all 0.3s ease;
+}
+
+.profAttributes {
+    text-align: left;
 }

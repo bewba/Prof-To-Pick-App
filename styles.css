@@ -87,7 +87,13 @@
     align-items: center;
 }
 
+.findButton:hover{
+    transform: scale(0.95);
+}
 
+.findButton{
+    transition: all 0.3s ease;
+}
 
 .findButton{
     background-color: black;
@@ -124,6 +130,11 @@
     animation : animate_border .75s linear infinite;
 }
 
+.findButton span:hover{
+    background-color: #333;
+    color: #fff;
+}
+
 .findButton span{
     display: block;
     background-color: whitesmoke;
@@ -131,8 +142,11 @@
     padding: 13px 20px;
     border-radius: 3px;
     position: relative;
+    
     z-index: 2;
+    transition: all 0.3s ease;
 }
+
 
 @keyframes animate_border {
     to {
