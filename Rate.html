@@ -9,14 +9,14 @@
 
 <body id = "mainPage">
     <div id="textDiv">
-        <form class="SearchProf">
+        <form class="SearchProf" method = "GET">
             <div class="input-group">
                 <label for="profFName">Professor First Name:</label>
-                <input type="text" id="profFName" name="profFName" class="profAttributes">
+                <input type="text" id="profFName" name="profFName" class="profAttributes" required>
             </div>
             <div class="input-group">
                 <label for="profLName">Professor Last Name:</label>
-                <input type="text" id="profLName" name="profLName" class="profAttributes">
+                <input type="text" id="profLName" name="profLName" class="profAttributes" required>
             </div>
 
             <div class="input-group">
@@ -28,7 +28,7 @@
                     <span class="star" data-value="4">&#9733;</span>
                     <span class="star" data-value="5">&#9733;</span>
                 </div>
-                <input type="hidden" id="profRating" name="profRating" class="profAttributes">
+                <input type="hidden" id="profRating" name="profRating" class="profAttributes" required>
             </div>
 
             <div class="input-group">
@@ -54,6 +54,8 @@
         </a>
     </div>
 </body>
-<script src="test.js"></script>
+
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="stars.js"></script>
+<script src = "rate.js" type = "module"></script>
 </html>
