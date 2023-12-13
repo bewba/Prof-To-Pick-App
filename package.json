@@ -1,0 +1,15 @@
+{
+  "name": "prof-picker-app",
+  "version": "1.0.0",
+  "description": "This application is a comedic way to choose professors in DLSU, hopefully I finish this before enlistments\r I will not diligently manage the database, hence do not blame me if someone says somemthing bad about a professor you like.",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}

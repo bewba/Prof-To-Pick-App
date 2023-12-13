@@ -1,5 +1,16 @@
 console.log("Hello World")
 
+const { 
+    createPool
+} = require('mysql');
+
+const pool = createPool ({
+    host: "localhost",
+    user: "root",
+    password: "",
+    database: "test",
+    connectionLimit: 10
+})
 
 let fancyButton = document.getElementById("fancyButton")
 const buttonEffect = document.addEventListener("fancyButton",printHello)
