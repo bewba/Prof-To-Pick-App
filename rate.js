@@ -1,10 +1,10 @@
-var mysql = require("node_modules\mysql");
+var mysql = require("mysql");
 const { Script } = require("vm");
 var con = mysql.createConnection({
     host: "sql12.freesqldatabase.com",
-    user: "sql12670032",
-    password: "mkUyRiL5Db",
-    database: "sql12670032",
+    user: "sql12676650",
+    password: "89Gr3qDQQ5",
+    database: "sql12676650",
     connectionLimit: 10
 })
 
@@ -13,7 +13,7 @@ con.connect(function(err){
     console.log("connected");
     var sql = "INSERT INTO Professor VALUES ?";
     var values = [
-        [9001, "Shirley", "Chu", 5, "SHIRLEY GOAT OF ALL TIME LOLOLOOL"]
+        [9002, "Lumagui", "Hans", 5, "Trains"]
     ]
     con.query(sql,[values], function(err,result){
         if(err) throw err;
@@ -21,4 +21,6 @@ con.connect(function(err){
     })
 })
 
-const firstName = document.getElementById
+
+//email: sds776043@gmail.com
+//password: asdf.1223
